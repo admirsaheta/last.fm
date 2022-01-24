@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "KeyboardAware",
+        "repositoryURL": "https://github.com/ralfebert/KeyboardAwareSwiftUI",
+        "state": {
+          "branch": null,
+          "revision": "c76a2e1ee69b413885c604e62f39b796de97dcda",
+          "version": "0.5.0"
+        }
+      },
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher",
+        "state": {
+          "branch": "master",
+          "revision": "15dde451f97a8ae18ea4f94969b7c8546f034b37",
+          "version": null
+        }
+      },
+      {
+        "package": "Resolver",
+        "repositoryURL": "https://github.com/hmlongco/Resolver",
+        "state": {
+          "branch": null,
+          "revision": "97de0b0320036607564af4a60025b48f8d041221",
+          "version": "1.5.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
