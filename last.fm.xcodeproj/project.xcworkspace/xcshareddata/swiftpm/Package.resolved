@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "APIProvider",
+        "repositoryURL": "https://github.com/admirsaheta/APIProvider.git",
+        "state": {
+          "branch": "main",
+          "revision": "d1fb97f7898552d27aad8d1979e8cb0d0ee0215b",
+          "version": null
+        }
+      },
+      {
         "package": "KeyboardAware",
         "repositoryURL": "https://github.com/ralfebert/KeyboardAwareSwiftUI",
         "state": {

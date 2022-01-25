@@ -28,6 +28,7 @@
 		8449D7422799C4DE00D9F781 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449D7412799C4DE00D9F781 /* SplashView.swift */; };
 		8449D7472799D17800D9F781 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449D7462799D17800D9F781 /* CountryModel.swift */; };
 		8449D74A2799D30400D9F781 /* CountriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449D7492799D30400D9F781 /* CountriesView.swift */; };
+		84710F26279F787400AA694B /* APIProvider in Frameworks */ = {isa = PBXBuildFile; productRef = 84710F25279F787400AA694B /* APIProvider */; };
 		84CD6721279B246700D764B4 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD6720279B246700D764B4 /* SearchBar.swift */; };
 		84CD6728279C231000D764B4 /* ArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD6727279C231000D764B4 /* ArtistView.swift */; };
 		84CD672B279C5F8400D764B4 /* KeyboardAware in Frameworks */ = {isa = PBXBuildFile; productRef = 84CD672A279C5F8400D764B4 /* KeyboardAware */; };
@@ -79,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84710F26279F787400AA694B /* APIProvider in Frameworks */,
 				84CD6749279EFD3100D764B4 /* APIProvider in Frameworks */,
 				84CD6744279ED40E00D764B4 /* Kingfisher in Frameworks */,
 				84CD672B279C5F8400D764B4 /* KeyboardAware in Frameworks */,
@@ -266,6 +268,7 @@
 				84CD672A279C5F8400D764B4 /* KeyboardAware */,
 				84CD6743279ED40E00D764B4 /* Kingfisher */,
 				84CD6748279EFD3100D764B4 /* APIProvider */,
+				84710F25279F787400AA694B /* APIProvider */,
 			);
 			productName = last.fm;
 			productReference = 8449D7282799900200D9F781 /* last.fm.app */;
@@ -299,6 +302,7 @@
 				84234D64279A298100DA0C65 /* XCRemoteSwiftPackageReference "Resolver" */,
 				84CD6729279C5F8400D764B4 /* XCRemoteSwiftPackageReference "KeyboardAwareSwiftUI" */,
 				84CD6742279ED40D00D764B4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				84710F24279F787400AA694B /* XCRemoteSwiftPackageReference "APIProvider" */,
 			);
 			productRefGroup = 8449D7292799900200D9F781 /* Products */;
 			projectDirPath = "";
@@ -564,6 +568,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		84710F24279F787400AA694B /* XCRemoteSwiftPackageReference "APIProvider" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/admirsaheta/APIProvider.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		84CD6729279C5F8400D764B4 /* XCRemoteSwiftPackageReference "KeyboardAwareSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ralfebert/KeyboardAwareSwiftUI";
@@ -587,6 +599,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 84234D64279A298100DA0C65 /* XCRemoteSwiftPackageReference "Resolver" */;
 			productName = Resolver;
+		};
+		84710F25279F787400AA694B /* APIProvider */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84710F24279F787400AA694B /* XCRemoteSwiftPackageReference "APIProvider" */;
+			productName = APIProvider;
 		};
 		84CD672A279C5F8400D764B4 /* KeyboardAware */ = {
 			isa = XCSwiftPackageProductDependency;
