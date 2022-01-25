@@ -72,7 +72,6 @@
 		84CD673C279DF1B800D764B4 /* ArtistsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsViewModel.swift; sourceTree = "<group>"; };
 		84CD673E279E948200D764B4 /* ArtistDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailsView.swift; sourceTree = "<group>"; };
 		84CD6740279EB5C000D764B4 /* ArtistDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailsViewModel.swift; sourceTree = "<group>"; };
-		84CD6746279EFCBD00D764B4 /* APIProvider */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = APIProvider; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +130,6 @@
 		8449D71F2799900200D9F781 = {
 			isa = PBXGroup;
 			children = (
-				84CD6746279EFCBD00D764B4 /* APIProvider */,
 				8449D72A2799900200D9F781 /* last.fm */,
 				8449D7292799900200D9F781 /* Products */,
 				84CD6747279EFD3100D764B4 /* Frameworks */,
